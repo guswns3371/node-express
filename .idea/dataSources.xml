@@ -6,6 +6,9 @@
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mariadb://localhost:3306</jdbc-url>
+      <driver-properties>
+        <property name="event_scheduler" value="on" />
+      </driver-properties>
     </data-source>
   </component>
 </project>
